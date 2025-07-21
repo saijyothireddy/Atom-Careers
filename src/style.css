@@ -1,0 +1,100 @@
+body{
+    background-color: #FFF8F0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #55206D;
+    padding: 0;
+    margin: 0;
+}
+#sidebyside{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+#oneside{
+    width: 50%;
+    padding: 32px 20px 32px 20px;
+}
+.contact{
+    font-family: 'Roboto',sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color:  #000000;
+}
+.sai{
+    margin-top: 52px;
+    margin-bottom: 10px;
+}
+#contact-button{
+    height: 44px;
+    width: 138px;
+    left: 190px;
+    top: 456px;
+    border-radius: 4px;
+    background-color: #2F2F2F;
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 19px;
+    margin-top: 20px;
+}
+.secondside{
+    width: 50%;
+}
+
+#hero-image{
+    width: 100%;
+    border-bottom-left-radius: 250px;
+}
+
+h1{
+    font-family: 'league Spartan',sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 50px;
+    color: #190D37;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+
+.bigtext{
+color: #331E6A;
+font-size: 18px;
+font-family: 'poppins',sans-serif;
+font-weight: 400;
+line-height: 32px;
+}
+.capable{
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    max-width: 1100px;
+}
+.Float{
+    display: flex;
+    max-width: 1100px;
+    gap: 50px;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 400px;
+    gap: 10px;
+}
+pre{
+    object-fit: cover;
+}
+.pricing-section{
+    max-width: 1060px;
+    margin: 0 auto;
+}
+.overtitle{
+    font-family: 'poppins',sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+}

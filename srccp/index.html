@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> My WebPage</title>
+    <!-- <style>
+        h1{
+            background-color: black;
+            color: brown;
+            text-align: center;
+        }
+    </style> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <div>
+        <!-- <img src="" alt=""> -->
+        <h2 class="ok"><i class="fa-solid fa-house"></i>Atom</h2>
+    </div>
+    <img id="banner" src="./assets/do-something-great.jpg" alt="A Beautifil sunset">
+    <h1>About Atom</h1>
+    <!-- <h1 style="text-align: center; color: darkblue; background-color: antiquewhite;">About Atom</h1> -->
+    <div id="about">
+        <div id="desc">
+            <p>At Atom, we're on a mission to build hte world's mosty highly reputed technical university, and we're
+                building it
+                completely<u> online and offline</u>. We offer several beginner friendly courses that are taken by
+                <b>30000+</b>
+                registered
+                users.</p>
+
+            <p>Currently ongoing courses.
+            <ol>
+                <li><a href="./fullstack.html" target="_blank">Atom FullStack developer BootCamp</a></li>
+                <li> <a href="./dataScience.html" target="_blank">Atom Data Science BootCamp</a></li>
+            </ol>
+            </p>
+        </div>
+        <div id="img">
+            <img id="team-image" src="./assets/Atom class.avif " alt="Class room">
+        </div>
+    </div>
+
+    <h2 style="text-align: center;">Job Oppurtunities</h2>
+    <div id="jobs">
+        <!-- <div>
+            <a href="mailto:saijyothireddyatluri@gmail.com" class="apply">Apply</a>
+        <h3 class="job-title">Frontend Developer</h3>
+        <span class="loc">Benagaluru, India</span>
+    </div>
+    <div>
+          <a href="mailto:saijyothireddyatluri@gmail.com" class="apply">Apply</a>
+        <h3 class="job-title">Backenmd Developer</h3>
+        <span class="loc">Remote</span>
+    </div>
+    <div>
+          <a href="mailto:saijyothireddyatluri@gmail.com" class="apply">Apply</a>
+        <h3 class="job-title">Data Scientist</h3>
+        <span class="loc">hyderabad, India</span>
+    </div> -->
+
+        <table class="jobs-table">
+            <tr class="table-header-row">
+                <th>company</th>
+                <th>Job Title</th>
+                <th>Requirements</th>
+                <th>Location</th>
+                <th>Salary</th>
+                <th>Posted on</th>
+            </tr>
+            <tr class="table-data-row">
+                <td>Warizon</td>
+                <td>frontend Developer</td>
+                <td>HTML, CSS, bootstrap,JavaScript, React</td>
+                <td>Hyderabad, India</td>
+                <td>₹ 60,000</td>
+                <td>12/07/2025</td>
+            </tr>
+            <tr class="table-data-row">
+                <td>Amazon</td>
+                <td>Backend Developer</td>
+                <td>Java,Python, frameworks</td>
+                <td>Hyderabad, India</td>
+                <td>₹ 120,000</td>
+                <td>14/07/2025</td>
+            </tr>
+            <tr class="table-data-row">
+                <td>Flipkart</td>
+                <td>FullStack Developer</td>
+                <td>Frontend, Backend, DataBase Technologies</td>
+                <td>Bengaluru, India</td>
+                <td>₹ 180,000</td>
+                <td>13/07/2025</td>
+            </tr>
+            <tr class="table-data-row">
+                <td>Google</td>
+                <td>Data Scientist</td>
+                <td>Ml, AI, Data Science, BlockChain</td>
+                <td>Delhi, India</td>
+                <td>₹ 20,000</td>
+                <td>11/07/2025</td>
+            </tr>
+        </table>
+
+    </div>
+    <div class="submit">
+        <h2 >Submit Application</h2>
+        <form action="https://formbold.com/s/9128a" method="POST"  enctype="multipart/form-data" class="application-form">
+            <div class="form-group">
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="FullName" placeholder="enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="Eamil" placeholder="enter email" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label><br>
+                <input type="password" name="Password" id="password" placeholder="enter password" min="8" required>
+
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone</label><br>
+                <input type="number" name="Phone num" id="phone" placeholder="+91 9988776655" minlength="10" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date Of Birth</label><br>
+                <input type="date" name="DOB" id="dob" required>
+            </div>
+            <div class="form-group">
+                <label for="position">Position applied for</label><br>
+                <select name="Position applied" id="position" required>
+                    <option value="">Select Position</option>
+                    <option value="frontend developer">Frontend Developer</option>
+                    <option value="backend developer">BAckend Developer</option>
+                    <option value="FullStack Developer">FullStack Developer</option>
+                    <option value="data Scientist">Data Scientist</option>
+                </select>
+            </div> 
+            <div class="form-group">
+                <label for="resume">Upload Resume</label><br>
+                <input type="file" name="Resume" id="resume" required>
+            </div>
+            <div class="form-group">
+                <label for="checkbox">
+                    <input type="checkbox" name="terms" id="checkbox">
+                    I agrre to the terms and conditions.
+                </label>
+            </div>
+            <div class="form-group">
+                <label for="cletter">Cover Letter</label><br>
+                <textarea name="cover letter" id="cletter" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for=""><button>Submit</button>
+                <button>Reset</button></label>
+
+            </div>
+        </form>
+    </div>
+    <div class="footer">
+        <ul id="footer-list">
+            <li><a href="./courses.html">courses</a></li>
+            <li><a href="./prog.html">Progrms</a></li>
+            <li><a href="./youtube.html">YouTube</a></li>
+        </ul>
+
+        <span id="copy"><i class="fa-regular fa-copyright"></i> 2026, Atom</span>
+    </div>
+    <script src="https://kit.fontawesome.com/3563b29070.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
